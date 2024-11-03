@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang ="tr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form name="email" action="mail.php" method="get">
+		<table>
+		<tr><td>Name:</td><td><input type="text" name="name" max="30" required></td></tr>
+		<br>
+		<tr><td>Surname:</td><td> <input type="text" name="surname" max="30" required></td></tr>
+		<br>
+		<tr><td>Email:</td><td><input type="email" name="email"></td></tr>
+		<br>
+		<tr><td>Web-site:</td><td><input type="url" name="web"></td></tr>
+		<br>
+		<tr><td>Your County:</td><td><select name="country" size="1">
+			<option>Turkey</option>
+			<option>Plestine</option>
+			<option>Turkestan</option>
+			<option>Azerbaijan</option></td></tr>
+		<br>
+		<tr><td>Feedback:</td><td><textarea name="feedback" rows="5" cols="50"></textarea></td></tr>
+		</table>
+		<input type="submit" value="Send">
+		<input type="reset" value="Cancel">
+		</form>
+		<br>
+		<br>
+		<input type="checkbox" name="like" value="yes">Nice site<br>
+		<input type="checkbox" name="not-like" value="no">Bad site<br>
+		
+	</body>
+</html>
